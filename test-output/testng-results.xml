@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43728" started-at="2020-10-10T19:54:02Z" finished-at="2020-10-10T19:54:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43728" started-at="2020-10-10T19:54:02Z" finished-at="2020-10-10T19:54:45Z">
+      <class name="learnJiraAPI.JiraAPIs">
+        <test-method status="PASS" signature="generateSession()[pri:0, instance:learnJiraAPI.JiraAPIs@5223e5ee]" name="generateSession" duration-ms="43710" started-at="2020-10-11T01:24:02Z" finished-at="2020-10-11T01:24:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateSession -->
+      </class> <!-- learnJiraAPI.JiraAPIs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
