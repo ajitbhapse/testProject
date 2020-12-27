@@ -1,4 +1,4 @@
-package learnJiraAPI;
+/*package learnJiraAPI;
 
 import java.io.File;
 
@@ -25,10 +25,10 @@ public class JiraAPIs {
 		System.out.println(root.getSession().getValue());
 		System.out.println(filter.getSessionId());
 		//return filter;
-		/*String responseBody = res.getBody().asString();
+		String responseBody = res.getBody().asString();
 		JsonPath path = new JsonPath(responseBody);
 		return path.getString("session.name") +"="+path.getString("session.value");
-*/	}
+	}
 	
 	@Test
 	public void createJiraTicket() {
@@ -111,3 +111,4 @@ public class JiraAPIs {
 		
 	}
 }
+*/
