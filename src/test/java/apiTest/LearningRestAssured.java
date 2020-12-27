@@ -37,7 +37,7 @@ public void postMethod() {
 			  		   .asString();
 	JsonPath path  = new JsonPath(res);
 	System.out.println(path.getString("place_id"));
-	System.out.println(System.getProperty("BROWSER"));
+	System.out.print("print browser "+System.getProperty("BROWSER"));
 }
 	@Test
 	public void getMethod() {
@@ -52,7 +52,7 @@ public void postMethod() {
 					.response()
 					.asString();
 		System.out.println(res);
-		
+		System.out.print("print browser "+System.getProperty("BROWSER"));
 		/*String responseBody = res.getBody().asString();
 		System.out.println(res.getStatusLine());
 		System.out.println(res.getHeaders().getValue("Server"));
@@ -77,6 +77,7 @@ public void postMethod() {
 		 String response = rsp.getBody().asString();
 		 JsonPath jPath = new JsonPath(response);
 		 System.out.println(jPath.getString("msg"));
+		 System.out.print("print browser "+System.getProperty("BROWSER"));
 	 }
 	 
 	 
